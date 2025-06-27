@@ -1,0 +1,19 @@
+.social-icons {
+  display: flex;
+  gap: 20px; /* Space between icons */
+  margin-bottom: 30px; /* Space below the entire icon row */
+  margin-top: 20px; /* Optional: Space above icons */
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%); /* Makes the icon white on dark backgrounds */
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  filter: invert(60%) sepia(100%) saturate(500%) hue-rotate(180deg);
+}

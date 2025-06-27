@@ -1,0 +1,67 @@
+.internships-section {
+  width: 100%;
+  padding: 60px 40px;
+  background-color: #0a192f; /* Matches Home and Skills sections */
+  box-sizing: border-box;
+}
+
+.internships-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+color: #64ffda;}
+
+.internship-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.internship-card {
+  width: 100%;
+  background-color: #112240; /* Slightly lighter than section for contrast */
+  border: 1px solid #233554;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.internship-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.internship-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  flex-grow: 1;
+  color: #64ffda;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toggle-btn:hover {
+  background-color: #64ffda;
+  color: #0a192f;
+}
+
+.internship-description {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #ccd6f6;
+}
